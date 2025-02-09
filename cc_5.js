@@ -74,3 +74,14 @@ let availableInventory = inventory.filter(quantity => quantity > 0);
 
 // Log the filtered array to the console
 console.log("Available Inventory:", availableInventory);
+
+// Task 6: Reduce Method
+
+// Declare an array of sales
+let sales = [500, 300, 200, 400];
+
+// Use the .reduce() method to calculate total revenue
+let totalRevenue = sales.reduce((acc, sale) => acc + sale, 0);
+
+// Log the total revenue to the console
+console.log("Total Revenue:", totalRevenue);
