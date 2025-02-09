@@ -120,3 +120,15 @@ const applyDiscount = function(price, discount) {
 
 // Example usage
 applyDiscount(500, 0.15);
+
+
+// Task 10: Loyalty Function
+// Write an arrow function calculatePoints(purchaseAmount).
+//Return 1 point per $10 spent and log the result.
+const calculatePoints = purchaseAmount => {
+    let points = Math.floor(purchaseAmount / 10);
+    console.log(`Points Earned: ${points}`);
+    return points;
+};
+// Example usage 
+calculatePoints(150);
