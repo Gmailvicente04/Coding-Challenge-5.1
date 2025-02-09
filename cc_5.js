@@ -109,3 +109,14 @@ function calculateTax(amount, taxRate) {
 // Example usage
 calculateTax(500, 0.07);
 
+// Task 9: Function Expression
+
+// Declare a function expression to apply discount
+const applyDiscount = function(price, discount) {
+    let discountedPrice = price - (price * discount);
+    console.log(`Discounted Price: $${discountedPrice}`);
+    return discountedPrice;
+};
+
+// Example usage
+applyDiscount(500, 0.15);
